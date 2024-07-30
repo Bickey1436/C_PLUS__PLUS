@@ -1,6 +1,8 @@
 
 //sorting the car distance with its coordinate (x,y).
 
+//Vectors + pair +sorting
+
 
 #include<iostream>
 #include<vector>
@@ -52,7 +54,6 @@ sort(v.begin(),v.end(),compare);
 
 
 for(auto p:v){
-
 
     cout<<"car"<<p.first<<","<<p.second<<endl;
 }
