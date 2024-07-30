@@ -7,6 +7,7 @@
 #include<algorithm>
 using namespace std;
 
+//comparing the distance of one care with another 
 
 bool compare(pair<int,int> p1, pair<int,int> p2){
 
@@ -43,6 +44,7 @@ for(int i=0;i<n;i++){
 
 }
 
+// the sort function applied over the pair and comparing each pair(x,y) with another in vector
 sort(v.begin(),v.end(),compare);
 
 
