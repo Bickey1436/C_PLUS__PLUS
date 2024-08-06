@@ -4,18 +4,32 @@ using namespace std;
 
 void prime(int n){
 
-
-for(int i=2; i<=n;i++){
-
-    if(i%2!=0){
-
-            cout<<i<<endl;
+int i;
+int no;
 
 
+
+for( no=2; no<n;  no++){
+    
+    for(i=2; i<no; i++){
+        
+        if(no%i==0){
+            break;
+        }
+        
+         
+        
     }
-
-
+    
+    if(i==no){
+            
+            cout<<no<<" ";
+        }
+        
+    
+   
 }
+
 
 }
 
@@ -26,8 +40,6 @@ int n;
 cin>>n;
 
 prime(n);
-
-
 
 
 }
