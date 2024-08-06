@@ -69,12 +69,6 @@ return j/(k*l);
 }
 
 
-
-
-
-
-
-
 #include<iostream>
 using namespace std;
 
